@@ -1,1 +1,1 @@
-# LazyVIM configuration for me, not for the ;)
+# My initial configuration for LazyVIM
