@@ -16,6 +16,9 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = {
+    { "nvim-lua/plenary.nvim" },
+    { "hrsh7th/nvim-cmp" },
+    { "Saghen/blink.cmp" },
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import/override with your plugins
